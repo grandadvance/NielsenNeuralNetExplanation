@@ -43,4 +43,13 @@ a_{n^0}^0
 \end{pmatrix}
 $$
 
+Правильный ответ для отображения данного выражения в Python
 </i>
+import numpy as np
+
+<code>
+def feedforward_linear(a, weights):
+    for w in weights:
+        a = np.dot(w, a)
+    return a
+</code>code
