@@ -15,7 +15,9 @@ $z_i^3 = \sum_{j=1}^{n^2} \left[ w_{ij}^3 \cdot \sum_{k=1}^{n^1} \left[ w_{jk}^2
 <b> Правильный ответ для матричной записи: </b>
 
 $$
-z_i^3 = \begin{pmatrix} w_{i\,1}^3 & w_{i\,2}^3 & \dots & w_{i\,n^2}^3 \end{pmatrix} \cdot \begin{pmatrix} w_{1\,1}^2 & w_{1\,2}^2 & \dots & w_{1\,n^1}^2 \\ w_{2\,1}^2 & w_{2\,2}^2 & \dots & w_{2\,n^1}^2 \\ \dots & \dots & \ddots & \dots \\ w_{n^2\,1}^2 & w_{n^2\,2}^2 & \dots & w_{n^2\,n^1}^2 \end{pmatrix} \cdot \begin{pmatrix} w_{1\,1}^1 & w_{1\,2}^1 & \dots & w_{1\,n^0}^1 \\ w_{2\,1}^1 & w_{2\,2}^1 & \dots & w_{2\,n^0}^1 \\ \dots & \dots & \ddots & \dots \\ w_{n^1\,1}^1 & w_{n^1\,2}^1 & \dots & w_{n^1\,n^0}^1 \end{pmatrix} \cdot \begin{pmatrix} a_1^0 \\ a_2^0 \\ \dots \\ a_{n^0}^0 \end{pmatrix}
+z_i^3 = \begin{pmatrix} 
+w_{i\,1}^3 & w_{i\,2}^3 & \dots & w_{i\,n^2}^3 
+\end{pmatrix} \cdot \begin{pmatrix} w_{1\,1}^2 & w_{1\,2}^2 & \dots & w_{1\,n^1}^2 \\ w_{2\,1}^2 & w_{2\,2}^2 & \dots & w_{2\,n^1}^2 \\ \dots & \dots & \ddots & \dots \\ w_{n^2\,1}^2 & w_{n^2\,2}^2 & \dots & w_{n^2\,n^1}^2 \end{pmatrix} \cdot \begin{pmatrix} w_{1\,1}^1 & w_{1\,2}^1 & \dots & w_{1\,n^0}^1 \\ w_{2\,1}^1 & w_{2\,2}^1 & \dots & w_{2\,n^0}^1 \\ \dots & \dots & \ddots & \dots \\ w_{n^1\,1}^1 & w_{n^1\,2}^1 & \dots & w_{n^1\,n^0}^1 \end{pmatrix} \cdot \begin{pmatrix} a_1^0 \\ a_2^0 \\ \dots \\ a_{n^0}^0 \end{pmatrix}
 $$
 
 
