@@ -8,7 +8,9 @@ $z^1 = w^1 a^0, \quad z^2 = w^2 z^1, \quad z^3 = w^3 z^2$
 
 <i> <b>Правильный ответ для покомпонентной записи: </b>
 <center>
-$z_i^3 = \sum_{j=1}^{n^2} \left[ w_{ij}^3 \cdot \sum_{k=1}^{n^1} \left[ w_{jk}^2 \cdot \sum_{l=1}^{n^0} w_{kl}^1 a_l^0 \right] \right]$
+
+  $z_i^3 = \sum_{j=1}^{n^2} \left[ w_{ij}^3 \cdot \sum_{k=1}^{n^1} \left[ w_{jk}^2 \cdot \sum_{l=1}^{n^0} w_{kl}^1 a_l^0 \right] \right]$
+
 </center>
 Здесь $n^0$, $n^1$ и $n^2$ количество нейронов слоя 0, 1 и 2 
 
