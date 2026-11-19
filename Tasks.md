@@ -87,9 +87,27 @@ $a^1 = f^1(z^1), \quad z^2 = g^2(a^1), \quad C = h(z^2)$
 ```python
 import numpy as np
 
-def feedforward_linear(a, weights):
-    for w in weights:
-        a = np.dot(w, a)
-    return a
+def compute_dC_dz1_p(dC_dz2, dz2_da1, da1_dz1_p):
+
+    # Аргументы:
+    # dC_dz2    - вектор-столбец размерности (n^2, 1)
+    # dz2_da1   - матрица Якоби размерности (n^1, n^2)
+    # da1_dz1_p - вектор-строка размерности (1, n^1) 
+
+    n_2 = dC_dz2.shape[0]
+    ones_row = np.ones((1, n_2))  # Строка (1_1, 1_2, ..., 1_{n^2}) размерности (1, n^2)
+
+    # Внутренние скобки: (dz^2 / da^1)^T @ (da^1 / dz^1_p)^T
+    inner = np.dot(dz2_da1.transpose(), da1_dz1_p.transpose())
+
+    # Поэлементное умножение (*) двух столбцов с размерностями (n^2, 1)
+    hadamard = dC_dz2 * inner
+
+    # Умножение строки единиц (1, n^2) на столбец (n^2, 1)
+    result = np.dot(ones_row, hadamard)
+
+    # Извлекаем конкретное число из массива формы (1, 1)
+    return float(result[0, 0])
+
 ```
 
