@@ -1,3 +1,7 @@
+Before we begin converting more complex summation formulas into vectorized form, let's practice using the neural network architecture introduced by Michael Nielsen. For our first exercise, we will apply the corresponding transformation to each block separately
+
+![Nielsen Neural Net structure, divided into sections](images/Nielsen_NN_structure_for_tasks.png)
+
 # Problem 1
 
 Consider three consecutive matrix-vector multiplications for a single training example $x$:
