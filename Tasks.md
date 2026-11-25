@@ -1,20 +1,21 @@
 # Problem 1
-Given: three consecutive matrix-vector multiplications (using a single training vector $x$ as an example):
+
+Consider three consecutive matrix-vector multiplications for a single training example $x$:
 
 $z^1 = w^1 a^0, \quad z^2 = w^2 z^1, \quad z^3 = w^3 z^2$
 
-Here $w^1, w^2, w^3$ - are 2D weight arrays, and $a^0$ - is a 1D input data array.
+Here, $w^1, w^2, w^3$ are 2D weight matrices, and $a^0$ is a 1D input vector.
 
-Suppose that $n^0$, $n^1$ and $n^2$ - are the number of neurons in layers 0, 1 and 2. Write a formula using $\sum$ signs (similar to nested $for$ loops), that calculates one specific element $z_{i}^3$ directly using the elements of the array $a_{l}^0$ and the elements of the matrices $w^1, w^2, w^3$.
+Let $n^0, n^1$, and $n^2$ be the number of neurons in layers 0, 1, and 2, respectively. Using summation notation $\sum$ (analogous to nested `for` loops), write a formula to compute a single output element $z_i^3$ directly in terms of the elements of $a_l^0$ and the weight matrices $w^1, w^2, w^3$.
 
-<i> <b> Correct answer for element-wise notation: </b>
+<i> <b> Index notation: </b>
 <div align="center">
   
   $z_i^3 = \sum_{j=1}^{n^2} \left[ w_{ij}^3 \cdot \sum_{k=1}^{n^1} \left[ w_{jk}^2 \cdot \sum_{l=1}^{n^0} w_{kl}^1 a_l^0 \right] \right]$
 
 </div>
 
-<b> Correct answer for matrix notation: </b>
+<b> Matrix notation: </b>
 
 $$
 z_i^3 = 
@@ -44,7 +45,7 @@ a_{n^0}^0
 \end{pmatrix}
 $$
 
-Correct answer for calculating this expression in Python:
+Python implimentation:
 </i>
 
 ```python
