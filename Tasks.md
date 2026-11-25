@@ -3,7 +3,7 @@ Given: three consecutive matrix-vector multiplications (using a single training 
 
 $z^1 = w^1 a^0, \quad z^2 = w^2 z^1, \quad z^3 = w^3 z^2$
 
-Here, $w^1, w^2, w^3$ — are 2D weight arrays, and $a^0$ — is a 1D input data array.
+Here $w^1, w^2, w^3$ — are 2D weight arrays, and $a^0$ — is a 1D input data array.
 
 Suppose that $n^0$, $n^1$ and $n^2$ - are the number of neurons in layers 0, 1, and 2. Write a formula using $\sum$ signs (similar to nested $for$ loops), that calculates one specific element $z_{i}^3$ directly using the elements of the array $a_{l}^0$ and the elements of the matrices $w^1, w^2, w^3$.
 
