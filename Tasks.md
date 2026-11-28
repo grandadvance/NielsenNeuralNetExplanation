@@ -30,12 +30,16 @@ $$
 
 $$
 \text{If }M = [ m_1, m_2, \dots, m_n] \text{ and } S = \sum_{i=1}^{n} m_i^2 \quad 
-\text{ then } 
+$$
+
+then
+
+$$
 S = m_1 \cdot m_1 + m_2 \cdot m_2 + \dots m_n \cdot m_n
 $$
 
 
-and the vector representation of S is
+In this case the vector representation of S will be
 
 $$
 S = \begin{pmatrix} 
