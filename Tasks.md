@@ -23,10 +23,12 @@ Y = \left[ y_1, y_2, y_3, \dots, y_n \right]
 \quad 
 A = \left[ a_1, a_2, a_3, \dots, a_n \right]
 $$
+
 <i>
 Optional: 
 If $M = \left[ m_1, m_2, \dots, m_n \right]$ and $S = \sum_{i=1}^{n} m_i^2$ then $S = m_1 \cdot m_1 + m_2 \cdot m_2 + \dots m_n \cdot m_n$
 </i>
+
 and the vector representation of S is $S = \begin{pmatrix} m_1 & m_2 & \dots & m_n \end{pmatrix} @ \begin{pmatrix} m_1 \\ m_2 \\ \dots \\ m_n \end{pmatrix} \quad$ So, in this case:
 
 
