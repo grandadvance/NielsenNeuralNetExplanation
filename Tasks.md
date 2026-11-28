@@ -18,6 +18,7 @@ C = 0.5 \sum_{i=1}^{10} (y_i - a_i)^2 = 0.5 \left[ (y_1 - a_1)^2 + (y_2 - a_2)^2
 $$
 
 Suppose, that:
+
 $$
 \quad 
 Y = \left[ y_1, y_2, y_3, \dots, y_n \right] 
@@ -28,7 +29,7 @@ $$
 <i> Optional: </i>
 
 $$
-M = [ m_1, m_2, \dots, m_n] and S = \sum_{i=1}^{n} m_i^2$ then S = m_1 \cdot m_1 + m_2 \cdot m_2 + \dots m_n \cdot m_n
+M = [ m_1, m_2, \dots, m_n] \text{ and } S = \sum_{i=1}^{n} m_i^2$ \text{ then } S = m_1 \cdot m_1 + m_2 \cdot m_2 + \dots m_n \cdot m_n
 $$
 
 
