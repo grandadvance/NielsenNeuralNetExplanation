@@ -50,7 +50,12 @@ $$
 S = \begin{pmatrix} 
 m_1 & m_2 & \dots & m_n \end{pmatrix} 
 @ 
-\begin{pmatrix} m_1 \\ m_2 \\ \dots \\ m_n \end{pmatrix} 
+\begin{pmatrix} 
+m_1 \\ 
+m_2 \\ 
+\dots \\ 
+m_n 
+\end{pmatrix} 
 \quad
 $$
 
