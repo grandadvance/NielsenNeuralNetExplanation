@@ -16,6 +16,7 @@ To begin, let us practice with basic transformations that sequentially comprise 
 $$
 C = 0.5 \sum_{i=1}^{10} (y_i - a_i)^2 = 0.5 \left[ (y_1 - a_1)^2 + (y_2 - a_2)^2 + \dots + (y_{10} - a_{10})^2 \right]
 $$
+
 Suppose, that:
 $$
 \quad 
@@ -25,12 +26,14 @@ A = \left[ a_1, a_2, a_3, \dots, a_n \right]
 $$
 
 <i> Optional: </i>
+
 $$
 M = [ m_1, m_2, \dots, m_n] and S = \sum_{i=1}^{n} m_i^2$ then S = m_1 \cdot m_1 + m_2 \cdot m_2 + \dots m_n \cdot m_n
 $$
 
 
 and the vector representation of S is
+
 $$
 S = \begin{pmatrix} 
 m_1 & m_2 & \dots & m_n \end{pmatrix} 
@@ -38,6 +41,7 @@ m_1 & m_2 & \dots & m_n \end{pmatrix}
 \begin{pmatrix} m_1 \\ m_2 \\ \dots \\ m_n \end{pmatrix} 
 \quad
 $$
+
 So, in this case:
 
 
