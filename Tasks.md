@@ -26,7 +26,7 @@ $$
 
 <i>
 Optional: 
-If $M = \left[ m_1, m_2, \dots, m_n \right]$ and $S = \sum_{i=1}^{n} m_i^2$ then $S = m_1 \cdot m_1 + m_2 \cdot m_2 + \dots m_n \cdot m_n$
+If $M = [ m_1, m_2, \dots, m_n]$ and $S = \sum_{i=1}^{n} m_i^2$ then $S = m_1 \cdot m_1 + m_2 \cdot m_2 + \dots m_n \cdot m_n$
 </i>
 
 and the vector representation of S is $S = \begin{pmatrix} m_1 & m_2 & \dots & m_n \end{pmatrix} @ \begin{pmatrix} m_1 \\ m_2 \\ \dots \\ m_n \end{pmatrix} \quad$ So, in this case:
