@@ -29,7 +29,9 @@ $$
 <i> Optional: </i>
 
 $$
-M = [ m_1, m_2, \dots, m_n] \text{ and } S = \sum_{i=1}^{n} m_i^2$ \text{ then } S = m_1 \cdot m_1 + m_2 \cdot m_2 + \dots m_n \cdot m_n
+\text{If }M = [ m_1, m_2, \dots, m_n] \text{ and } S = \sum_{i=1}^{n} m_i^2 \quad 
+\text{ then } 
+S = m_1 \cdot m_1 + m_2 \cdot m_2 + \dots m_n \cdot m_n
 $$
 
 
