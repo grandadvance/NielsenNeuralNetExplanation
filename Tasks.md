@@ -17,19 +17,16 @@ $$
 C = 0.5 \sum_{i=1}^{10} (y_i - a_i)^2 = 0.5 \left[ (y_1 - a_1)^2 + (y_2 - a_2)^2 + \dots + (y_{10} - a_{10})^2 \right]
 $$
 
-Suppose, that:
+First, recall that if
 
 $$
-\quad 
-Y = \left[ y_1, y_2, y_3, \dots, y_n \right] 
-\quad 
-A = \left[ a_1, a_2, a_3, \dots, a_n \right]
+M = [ m_1, m_2, \dots, m_n] 
 $$
 
-<i> Optional: </i>
+and
 
 $$
-\text{If }M = [ m_1, m_2, \dots, m_n] \text{ and } S = \sum_{i=1}^{n} m_i^2 \quad 
+S = \sum_{i=1}^{n} m_i^2
 $$
 
 then
@@ -38,6 +35,14 @@ $$
 S = m_1 \cdot m_1 + m_2 \cdot m_2 + \dots m_n \cdot m_n
 $$
 
+Also we suppose that
+
+$$
+\quad 
+Y = \left[ y_1, y_2, y_3, \dots, y_n \right] 
+\quad 
+A = \left[ a_1, a_2, a_3, \dots, a_n \right]
+$$
 
 In this case the vector representation of S will be
 
