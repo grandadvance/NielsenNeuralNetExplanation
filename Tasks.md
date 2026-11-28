@@ -2,6 +2,12 @@ Before we begin converting more complex summation formulas into vectorized form,
 
 ![Nielsen Neural Net structure, divided into sections](images/Nielsen_NN_structure_for_tasks.png)
 
+To begin, let us practice with basic transformations that sequentially comprise three main stages:
+
+1. Visualization of the neural network segment under consideration;
+2. Problem formulation and writing the equation in index notation (for an individual element) describing a specific matrix operation or loss function;
+3. Transition from index notation to the vectorized (matrix) form of the equation.
+
 # Problem 1
 
 Consider three consecutive matrix-vector multiplications for a single training example $x$:
