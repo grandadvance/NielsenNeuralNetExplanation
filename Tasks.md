@@ -13,6 +13,10 @@ To begin, let us practice with basic transformations that sequentially comprise 
 
 2. In Section III, it is appropriate to define the loss function. Let us begin with the standard mean squared error (MSE) loss function. In index notation it is written as follows:
 
+$$
+C = 0.5 \sum_{i=1}^{10} (y_i - a_i)^2 = 0.5 \left[ (y_1 - a_1)^2 + (y_2 - a_2)^2 + \dots + (y_{10} - a_{10})^2 \right]
+$$
+
 # Problem 1
 
 Consider three consecutive matrix-vector multiplications for a single training example $x$:
