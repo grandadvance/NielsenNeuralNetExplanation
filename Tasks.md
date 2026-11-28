@@ -60,12 +60,13 @@ m_n
 $$
 
 $$
-C = 0.5 {y_1 - a_1 & y_2 - a_2 & \dots & y_n - a_n } @ { y_1 - a_1 & y_2 - a_2 & \dots & y_n - a_n }^T = 0.5 \begin{pmatrix} y_1 - a_1 & y_2 - a_2 & \dots & y_n - a_n \end{pmatrix} @ \begin{pmatrix} 
+C = 0.5 [y_1 - a_1 & y_2 - a_2 \dots y_n - a_n ] @ [ y_1 - a_1 & y_2 - a_2 & \dots & y_n - a_n ]^T = 0.5 \begin{pmatrix} y_1 - a_1 & y_2 - a_2 & \dots & y_n - a_n \end{pmatrix} @ \begin{pmatrix} 
 y_1 - a_1 \\ 
 y_2 - a_2 \\ 
 \dots \\ 
 y_n - a_n 
-\end{pmatrix}$$
+\end{pmatrix}
+$$
 
 Or, in a more simplified notation: $C = 0.5(Y - A) @ (Y - A)^T$
 
