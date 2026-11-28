@@ -72,7 +72,35 @@ $$
 
 Or, in a more simplified notation: $C = 0.5(Y - A) @ (Y - A)^T$
 
+Python implementation:
+``` python
+import numpy as np
 
+# Define specific scalar values for the vectors (let dimension n = 4)
+# y is the vector of target (ground-truth) values
+y = np.array([1.0, 0.0, 1.0, 0.0])
+
+# a is the vector of output activations of the neural network
+a = np.array([0.8, 0.2, 0.9, 0.1])
+
+# Compute the row vector of differences (1, n)
+diff_row = (y - a).reshape(1, -1)
+
+# Transpose it into a column vector (n, 1), as on the right-hand side of the formula
+diff_col = diff_row.T
+
+# Compute the cost function C using the formula: 0.5 * (y - a) @ (y - a)^T
+C_matrix = 0.5 * (diff_row @ diff_col)
+
+# Extract the scalar value from the (1, 1) matrix
+C = C_matrix.item()
+
+print(f"Row vector (y - a):\n{diff_row}\n")
+print(f"Column vector (y - a)^T:\n{diff_col}\n")
+print(f"Cost function result C: {C:.4f}")
+
+
+```
 
 
 # Problem 1
