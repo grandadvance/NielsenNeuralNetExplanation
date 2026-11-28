@@ -8,6 +8,11 @@ To begin, let us practice with basic transformations that sequentially comprise 
 2. Problem formulation and writing the equation in index notation (for an individual element) describing a specific matrix operation or loss function;
 3. Transition from index notation to the vectorized (matrix) form of the equation.
 
+# 
+1. The first stage of our plan has already been implemented in the figure above. Now, moving from right to left (in the direction of backpropagation), we need to provide a rigorous mathematical description of each element.
+
+2. In Section III, it is appropriate to define the loss function. Let us begin with the standard mean squared error (MSE) loss function. In index notation it is written as follows:
+
 # Problem 1
 
 Consider three consecutive matrix-vector multiplications for a single training example $x$:
